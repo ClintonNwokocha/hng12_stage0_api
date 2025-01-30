@@ -17,3 +17,6 @@ This is a simple Django API that returns:
   "current_datetime": "2025-01-29T18:38:04.524859+00:00",
   "github_url": "https://github.com/ClintonNwokocha/hng12_stage0_api"
   }
+
+## Backlinks
+https://hng.tech/hire/python-developers
