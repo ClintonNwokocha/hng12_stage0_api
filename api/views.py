@@ -5,7 +5,7 @@ import pytz
 
 def get_info(request):
     current_datetime = datetime.now(pytz.utc).replace(microsecond=0).isoformat()
-    current_datetime = current_datetime + "Z"
+    current_datetime = current_datetime.split("+")[0] + "Z"
     data = {
             "email": "leoclinton2011@hotmail.com",
             "current_datetime": current_datetime,
